@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Table</title>
+</head>
+<body>
+<style type="text/css">
+	#first {background-color: rgb(67,178,89);
+		color: white;
+		text-align: center;
+	}
+	body {
+		font-family: Arial,sans-serif;
+	}
+	th, td {
+		padding: 10px;
+		border: 1px grey solid;
+	}
+	table {
+		border-collapse: collapse;
+		height: 200px;
+		width: 700px;
+	}
+	tr:nth-child(even){
+		background-color: lightgrey;
+	}
+	tr:hover {
+		background-color: darkgrey;
+		color: white;
+	}
+</style>
+<table>
+<tr id="first">
+	<th width="300px">Company</th>
+	<th width="200px">Contact</th>
+	<th width="150px">Country</th>
+</tr>
+<tr>
+	<td>Alfred Futterkiste</td>
+	<td>Maria Anders</td>
+	<td>Germany</td>
+</tr>
+<tr>
+	<td>Berglunds Snabbkop</td>
+	<td>Christina Berglund</td>
+	<td>Sweden</td>
+</tr>
+<tr>
+	<td>Komugi</td>
+	<td>Cecil Chan</td>
+	<td>Japan</td>
+</tr>
+<tr>
+	<td>Lavendar</td>
+	<td>John Smith</td>
+	<td>United State</td>
+</tr>
+</table>
+</body>
+</html>
